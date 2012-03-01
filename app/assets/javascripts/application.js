@@ -14,3 +14,15 @@
 //= require jquery_ujs
 //= require_tree .
 //= require bootstrap
+
+var App = App || {};
+
+$(function(){
+	App.Home.init();
+});
+
+App.Home = {
+	init: function() {
+		
+	}	
+};
