@@ -1,0 +1,17 @@
+.hero-unit
+	.row-fluid
+		.span8
+			%h1 Welcome to Rails + Bootstrap!
+			%p
+				%i.icon-bookmark
+				Enjoy your stay son
+		.span4
+			= render :partial => "shared/hero_thumb"
+
+.row
+	.span5
+		= render :partial => "shared/home_thumb",
+		:locals => { :color => "acdeef", :copy => "Lorem ipsum all up in this motherfucker son" } 
+	.span5
+		= render :partial => "shared/home_thumb",
+		:locals => { :color => "ffcade", :copy => "All day errrday we do it like it should be does" }		
